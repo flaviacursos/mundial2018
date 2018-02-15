@@ -1,0 +1,132 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Kavivanar', cursive;
+*/
+/*estilos base*/
+
+body{
+   font-family: 'Open Sans', sans-serif; 
+}
+
+.contenedor {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    overflow: hidden;
+}
+
+header .logo {
+    float: left;
+}
+
+figure {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    position: relative;
+    top: 55px;
+}
+
+header nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+header nav ul li {
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+header nav ul li a{
+    background: grey;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover{
+    color:red;
+    background:black;
+}
+
+footer {
+    overflow: hidden;
+}
+
+footer .credito {
+    float: left;
+}
+
+footer .copyright {
+    float: right;
+}
+
+h1{
+    color:red;
+    font-size: 30px;
+    font-family: 'Kavivanar', cursive;
+}
+
+p{
+    color: gray;
+}
+
+/* seccion pais anfitrion */
+.hero {
+    background:
+        url('../img/logo.png') no-repeat 25px 25px, /* capa 3 */
+        url('../img/pelota.png') no-repeat 675px 25px, /* capa 2 */
+        url('../img/plaza-roja.jpg') no-repeat; /* capa 1 */
+    width: 900px;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.columnas {
+    columns: 3;
+    column-gap: 20px;
+    margin: 50px 0;
+    font-size: 14px;
+}
+
+.columnas p {
+    margin-top: 0;
+}
+
+/* seccion estadios */
+
+.estadios {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.estadios .estadio:first-child {
+    margin-left: 0;
+}
+
+.estadio {
+    width: 155px;
+    float: left;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-left: 37px;
+}
+
+.estadio img {
+    border-radius: 50%;
+    max-width: 150px;
+    box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.5);
+}
+
+.estadio h6 {
+    text-align: center;
+}
+
+.estadio p {
+    font-size: 12px;
+}
