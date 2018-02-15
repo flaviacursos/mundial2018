@@ -159,6 +159,11 @@ p{
     top: 70px;
 }
 
+.historia-mascota h2 {
+    color: #d20a11;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+}
+
 /* seccion grupos */
 
 .grupos {
