@@ -130,3 +130,31 @@ p{
 .estadio p {
     font-size: 12px;
 }
+
+/* seccion mascota */
+
+.mascota {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d20a11+0,7f060a+100 */
+    background: #d20a11; /* Old browsers */
+    background: -moz-linear-gradient(top, #d20a11 0%, #7f060a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #d20a11 0%,#7f060a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #d20a11 0%,#7f060a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d20a11', endColorstr='#7f060a',GradientType=0 ); /* IE6-9 */
+
+    width: 900px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.mascota img {
+    float: left;
+}
+
+.mascota p {
+    float: left;
+    color: white;
+    margin-left: 80px;
+    width: 50%;
+    position: relative;
+    top: 70px;
+}
