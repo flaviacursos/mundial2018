@@ -158,3 +158,56 @@ p{
     position: relative;
     top: 70px;
 }
+
+/* seccion grupos */
+
+.grupos {
+    overflow: hidden;
+    margin: 50px 0;
+}
+
+.grupo {
+    float: left;
+    width: 200px;
+    margin-left: 33px;
+}
+
+.grupo:first-child {
+    margin-left: 0;
+}
+
+.grupo h6 {
+    background: rgba(210,10,17,1);
+    color: white;
+    padding: 5px 10px;
+    font-size: 17px;
+    margin: 0;
+}
+
+.grupo:nth-child(2) h6 {
+    background: rgba(210,10,17,0.8);
+}
+
+.grupo:nth-child(3) h6 {
+    background: rgba(210,10,17,0.5);
+}
+
+.grupo:nth-child(4) h6 {
+    background: rgba(210,10,17,0.3);
+}
+
+.grupo h6:before {
+    content: "";
+    display: inline-block;
+    background: url('../img/pelota-icono.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    margin-right: 12px;
+}
+
+.grupo ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
